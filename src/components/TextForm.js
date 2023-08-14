@@ -10,7 +10,7 @@ export default function TextForm(props) {
     console.log('On Change');
     setText(event.target.value);
   }
-  const [text, setText] = useState('');
+  const [text, setText] = useState(' ');
   return (
     <div id='fm-div'>
         <h1 id='form-head'>{props.heading}</h1>
